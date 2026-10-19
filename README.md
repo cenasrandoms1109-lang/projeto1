@@ -1,0 +1,1 @@
+Este projecto pretende implementar um conversor universal de unidades.
