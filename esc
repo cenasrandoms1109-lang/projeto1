@@ -1,0 +1,26 @@
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100  1) # !/ usr / bin / env python3
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100  2)  
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100  3) if __name__ == " __main__ " :
+281d1a49 (Kristian Saraiva 2026-10-26 17:23:25 +0000  4)  #menu
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100  5)     print ( " Converter \ n " )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100  6)     print ( " (1) Unidades metricas " )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100  7)     print ( " (2) Unidades volumetricas " )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100  8)     op1 = int ( input ( "> " ) )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100  9)  
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 10)     if op1 == 1:
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 11)         print ( " (1) m - > km , (2) km - > m " )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 12)         op2 = int ( input ( " > " ) )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 13)        
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 14)         if op2 == 1:
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 15)             x = float ( input ( " m = " ) )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 16)             print (f"km = { x /1000} " )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 17)  
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 18)         else :
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 19)             x = float ( input ( " km = " ) )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 20)             print (f" m = { x *1000} " )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 21)  
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 22)     elif op1 == 2:
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 23)         print ( " Por implementar " )
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 24)  
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 25)     else :
+7c32b53e (João Pedro       2026-10-19 16:55:52 +0100 26)         print ( " Op ç ã o incorreta " )
