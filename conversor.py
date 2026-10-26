@@ -64,3 +64,6 @@ if __name__ == "__main__":
 
     else:
         print("Opção incorreta")
+
+
+    #Area para utilizar funcoes
