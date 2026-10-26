@@ -1,5 +1,6 @@
 # !/ usr / bin / env python3
- 
+from Volumetricas import Volumetricas
+from Metricas import Metricas
 if __name__ == " __main__ " :
  #menu
     print ( " Converter \ n " )
@@ -8,19 +9,9 @@ if __name__ == " __main__ " :
     op1 = int ( input ( "> " ) )
  
     if op1 == 1:
-        print ( " (1) m - > km , (2) km - > m " )
-        op2 = int ( input ( " > " ) )
-       
-        if op2 == 1:
-            x = float ( input ( " m = " ) )
-            print (f"km = { x /1000} " )
- 
-        else :
-            x = float ( input ( " km = " ) )
-            print (f" m = { x *1000} " )
- 
+        Metricas()
     elif op1 == 2:
-        print ( " Por implementar " )
+        Volumetricas()
+    else:
+        print("Opção incorreta")
  
-    else :
-        print ( " Op ç ã o incorreta " )
